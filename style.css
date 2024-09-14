@@ -37,6 +37,8 @@ li{
 
 .navbar .logo a{
     color: #fff;
+    font-size: 20px;
+    font-style: italic;
 }
 
 .navbar .nav-links{
@@ -58,6 +60,9 @@ li{
 .navbar .menubtn{
     position: absolute;
     right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar .menubtn button{
@@ -65,10 +70,23 @@ li{
     cursor: pointer;
     background-color: transparent;
     color: #fff;
+    font-size: 20px;
+    display: none;
 }
 
 .hero{
     width: 100%;
     height: 70vh;
     background-color: black;
+}
+
+@media screen and (max-width: 978px) {
+    
+    .navbar .nav-links{
+        display: none;
+    }
+
+    .navbar .menubtn button{
+        display: block;
+    }
 }
