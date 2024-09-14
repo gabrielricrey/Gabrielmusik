@@ -59,44 +59,19 @@ li{
 
 .navbar .menubtn{
     position: absolute;
-    right: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
     display: none;
-}
-
-.navbar .menubtn button{
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
     color: #fff;
-}
-
-.navbar .menubtn button i{
-    font-size: 48px;
-}
-
-.navbar .closebtn{
-    position: absolute;
-    right: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    display: none;
-}
-
-.navbar .closebtn button{
-    border: none;
     cursor: pointer;
-    background-color: transparent;
-    color: #fff;
+    transition: all 0.3s ease;
 }
 
-.navbar .closebtn button i{
-    font-size: 48px;
+
+.navbar .menubtn i{
+    font-size: 30px;
 }
 
 .hero{
