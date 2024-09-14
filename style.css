@@ -87,12 +87,11 @@ li{
 @media screen and (max-width: 978px) {
 
     .navbar{
-        justify-content: space-between;
+        justify-content: flex-end;
     }
 
     .navbar .logo{
-        position: relative;
-        left: 0;
+        display: none;
     }
 
     .navbar .logo a{
