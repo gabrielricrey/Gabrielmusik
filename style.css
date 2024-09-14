@@ -64,6 +64,7 @@ li{
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    display: none;
 }
 
 .navbar .menubtn button{
@@ -71,10 +72,30 @@ li{
     cursor: pointer;
     background-color: transparent;
     color: #fff;
-    display: none;
 }
 
 .navbar .menubtn button i{
+    font-size: 48px;
+}
+
+.navbar .closebtn{
+    position: absolute;
+    right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    display: none;
+}
+
+.navbar .closebtn button{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+}
+
+.navbar .closebtn button i{
     font-size: 48px;
 }
 
@@ -94,21 +115,17 @@ li{
     .navbar .logo{
         display: none;
     }
-
-    .navbar .logo a{
-        font-size: 48px;
-    }
-
-    .navbar .menubtn{
-        position: relative;
-        right: 0;
-    }
     
     .navbar .nav-links{
         display: none;
     }
 
-    .navbar .menubtn button{
+    .navbar .menubtn{
+        position: relative;
         display: block;
+    }
+    
+    .navbar .closebtn{
+        position: relative;
     }
 }
