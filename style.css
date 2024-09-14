@@ -88,6 +88,7 @@ li{
 
     .navbar{
         justify-content: flex-end;
+        padding: 1rem;
     }
 
     .navbar .logo{
