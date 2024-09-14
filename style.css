@@ -63,6 +63,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 
 .navbar .menubtn button{
@@ -70,8 +71,11 @@ li{
     cursor: pointer;
     background-color: transparent;
     color: #fff;
-    font-size: 20px;
     display: none;
+}
+
+.navbar .menubtn button i{
+    font-size: 48px;
 }
 
 .hero{
@@ -81,6 +85,24 @@ li{
 }
 
 @media screen and (max-width: 978px) {
+
+    .navbar{
+        justify-content: space-between;
+    }
+
+    .navbar .logo{
+        position: relative;
+        left: 0;
+    }
+
+    .navbar .logo a{
+        font-size: 48px;
+    }
+
+    .navbar .menubtn{
+        position: relative;
+        right: 0;
+    }
     
     .navbar .nav-links{
         display: none;
